@@ -35,7 +35,7 @@ export default function Checkout() {
 
     },
 
-    onSubmit: () => handelCheckout(CartId, `http://localhost:5173`),
+    onSubmit: () => handelCheckout(CartId, window.location.origin),
   })
 
 
